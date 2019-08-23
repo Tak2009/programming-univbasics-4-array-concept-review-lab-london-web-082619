@@ -27,12 +27,9 @@ end
 =end
 
 def find_min_value(array)
+  min = array[0]
   array.length.times do |count|
-   if count ==  0 then
-      min = array[count]
-    elsif
-      min = array[0]
-      array[count] < min
+   if array[count] < min
       min = array[count]
    end
   end
