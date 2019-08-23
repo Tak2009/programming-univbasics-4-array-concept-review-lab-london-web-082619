@@ -24,7 +24,7 @@ end
 def find_min_value(array)
    array.sort[0]
 end
-=end 
+=end
 
 def find_min_value(array)
   array.length.times do |count|
